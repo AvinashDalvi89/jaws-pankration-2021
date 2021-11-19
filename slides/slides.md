@@ -84,7 +84,7 @@ Amplify libraries support
 # Host static website on AWS Amplify
 <!-- AWS Amplify offers a fully managed static web hosting service that can be accessed directly from the AWS console. AWS Amplify's static web hosting service provides a complete workflow for building, deploying, and hosting single page web apps or static sites with serverless backends.-->
 <br><br>
-<img src="images/aws-hosting-static-website.png">
+<img src="/images/aws-hosting-static-website.png">
 
 
 ---
