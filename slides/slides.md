@@ -1,7 +1,7 @@
 
 ---
 
-background: images/aws-amplify-hosting-first-slide.png
+background: /images/aws-amplify-hosting-first-slide.png
 
 ---
  
@@ -55,7 +55,7 @@ AWS Amplify is a package of tools and services
 
 ---
 layout: image-right
-image: images/aws-amplify-tools.png
+image: /images/aws-amplify-tools.png
  
 ---
 
