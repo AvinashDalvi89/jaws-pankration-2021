@@ -105,5 +105,6 @@ Hosting react app along passing environmental variable on AWS Amplify console.
 * [GitHub repo (slides + sample code)]()
 * [AWS Amplify FAQ](https://aws.amazon.com/amplify/faqs/)
 * [AWS Amplify](https://aws.amazon.com/amplify/)
+* [AWS Amplify Environment variable](https://docs.aws.amazon.com/amplify/latest/userguide/environment-variables.html)
 * [Static hosting of Angular on AWS Amplify ](https://www.internetkatta.com/static-hosting-of-angular-build-using-aws-amplify)
 * Connect me on [Twitter](https://twitter.com/aviboy2006), [GitHub](https://github.com/aviboy2006), [LinkedIn](https://www.linkedin.com/in/avinash-dalvi-315b021a/)
