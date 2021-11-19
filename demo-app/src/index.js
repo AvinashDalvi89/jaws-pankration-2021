@@ -8,7 +8,7 @@ import BingMapsReact from "bingmaps-react";
 ReactDOM.render(
   
   <React.StrictMode>
-    <BingMapsReact bingMapsKey="AlRe76JIqDAyOb_mWHn3GIiaYYQm9gFGhMI10BoIEf3LfUDw9Kg8mfaEbUtYhDJC" />
+    <BingMapsReact bingMapsKey={process.env.BING_MAP_KEY} />
   </React.StrictMode>,
   document.getElementById('root')
 );
