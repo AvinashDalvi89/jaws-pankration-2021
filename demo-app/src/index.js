@@ -4,11 +4,12 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import BingMapsReact from "bingmaps-react";
 
- 
+
+const BUILD_ENV = process.env.REACT_APP_BING_MAP_KEY;
 ReactDOM.render(
   
   <React.StrictMode>
-    <BingMapsReact bingMapsKey={process.env.BING_MAP_KEY} />
+    <BingMapsReact bingMapsKey={BUILD_ENV} />
   </React.StrictMode>,
   document.getElementById('root')
 );
