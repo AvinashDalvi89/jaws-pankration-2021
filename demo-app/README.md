@@ -1,6 +1,6 @@
 # Bing map integration in React
 
-This demo app includes Bing map rendering functionality. 
+This demo app includes Bing map rendering functionality. To your Bing Maps Key from https://www.bingmapsportal.com/ here.
 
 ## Available Scripts
 
