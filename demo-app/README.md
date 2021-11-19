@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Bing map integration in React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This demo app includes Bing map rendering functionality. 
 
 ## Available Scripts
 
