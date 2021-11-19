@@ -3,7 +3,7 @@
 theme: seriph
 # random image from a curated Unsplash collection by Anthony
 # like them? see https://unsplash.com/collections/94734566/slidev
-background: images/aws-amplify-hosting-first-slide.png
+background: https://s3.amazonaws.com/demo.avinashdalvi.com/assets/aws-amplify-hosting-first-slide.png
 # apply any windi css classes to the current slide
 class: 'text-white'
 # https://sli.dev/custom/highlighters.html
@@ -71,7 +71,7 @@ AWS Amplify is a package of tools and services
 
 ---
 layout: image-right
-image: images/aws-amplify-tools.png
+image: https://s3.amazonaws.com/demo.avinashdalvi.com/assets/aws-amplify-tools.png
  
 ---
 
