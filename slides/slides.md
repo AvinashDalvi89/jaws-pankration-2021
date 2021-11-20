@@ -1,29 +1,31 @@
 ---
-# try also 'default' to start simple
 theme: seriph
-# random image from a curated Unsplash collection by Anthony
-# like them? see https://unsplash.com/collections/94734566/slidev
-background: https://s3.amazonaws.com/demo.avinashdalvi.com/assets/aws-amplify-hosting-first-slide.png
-# apply any windi css classes to the current slide
-class: 'text-white'
-# https://sli.dev/custom/highlighters.html
+background: >-
+  https://s3.amazonaws.com/demo.avinashdalvi.com/assets/aws-amplify-hosting-first-slide.png
+class: text-white
 highlighter: shiki
-# show line numbers in code blocks
 lineNumbers: false
-# some information about the slides, markdown enabled
 info: |
   ## Slidev Starter Template
   Presentation slides for developers.
 
   Learn more at [Sli.dev](https://sli.dev)
-# persist drawings in exports and build
 drawings:
   persist: false
 ---
- 
 
 <!--
-The last comment block of each slide will be treated as slide notes. It will be visible and editable in Presenter Mode along with the slide. [Read more in the docs](https://sli.dev/guide/syntax.html#notes)
+Hello everyone, 
+My self Avinash Shashikant Dalvi, you call me Avi. I am full stack developer and Currently working as senior software engineer at Eagleview India. I am AWS Community Builder.
+Today we are going to learn about how to host static website
+using AWS Amplify.
+-->
+
+<!--
+Hello everyone, 
+My self Avinash Shashikant Dalvi, you call me Avi. I am full stack developer and Currently working as senior software engineer at Eagleview India. I am AWS Community Builder.
+Today we are going to learn about how to host static website
+using AWS Amplify.
 -->
 
 ---
@@ -32,7 +34,7 @@ The last comment block of each slide will be treated as slide notes. It will be 
 - What is **AWS Amplify** ? 
 - What **AWS Amplify** provides ?
 - **AWS Amplify** support for ? 
-- Host static website on **AWS Amplify**
+- Steps to host static website on **AWS Amplify**
 - How to keep environment variable secured ?
 - Demo
  
@@ -68,11 +70,14 @@ AWS Amplify is a package of tools and services
 - make more easiler installation of dependent library 
 - built-in CLI
 
+<!--
+Before amplify come into picture AWS was providing static hosting using S3 bucket. Problem with S3 was only any library installation like node modules have to
+to do it before pushing code into S3 bucket. To solve this problem and make more stronger and better solution come with Amplify console.
+-->
 
 ---
 layout: image-right
 image: https://s3.amazonaws.com/demo.avinashdalvi.com/assets/aws-amplify-tools.png
- 
 ---
 
 # What **AWS Amplify** provides ?
@@ -84,6 +89,11 @@ image: https://s3.amazonaws.com/demo.avinashdalvi.com/assets/aws-amplify-tools.p
 - Collaborate effortlessly in the Amplify admin UI, where you can easily manage app users and content.
 
 - Deploy and **host static websites**, **single-page web apps**, and server-side rendered apps in a few clicks.
+
+<!--
+You can see right hand side of slides many list of feature provided by Amplify
+-->
+
 ---
 
 # **AWS Amplify** support for
@@ -97,14 +107,28 @@ Amplify libraries support
 
 ---
 
-# Host static website on AWS Amplify
-<!-- AWS Amplify offers a fully managed static web hosting service that can be accessed directly from the AWS console. AWS Amplify's static web hosting service provides a complete workflow for building, deploying, and hosting single page web apps or static sites with serverless backends.-->
+# Steps to host static website on **AWS Amplify**
+<!-- This is a note -->
+
 <br><br>
 <img src="/images/aws-hosting-static-website.png">
 
+<!--
+AWS Amplify offers a fully managed static web hosting service that can be accessed directly from the AWS console. AWS Amplify's static web hosting service provides a complete workflow for building, deploying, and hosting single page web apps or static sites with serverless backends.
+-->
 
 ---
 class: px-20
+---
+
+# How to keep environment variable secured ?
+<img src="/images/environment-variable.png">
+<img src="/images/build-setting.png">
+
+<!--
+Mostly we always worried about  where to keep environmental value if web apps going to host as static hosting. It is not recommended to keep under git repository. To solve this issue Amplify provide  environment console UI where we can set environmental variable.Once we set those variable we have to do small changes in build configuration under amplify.yaml file as shown in left side of picture.
+-->
+
 ---
 
 # Demo 
@@ -114,7 +138,7 @@ Hosting react app along passing environmental variable on AWS Amplify console.
 <br>
 <img src="https://c.tenor.com/uba3gOLyOSsAAAAC/stickergiant-action.gif">
 
---- 
+---
 
 # Q&A, Links
 
