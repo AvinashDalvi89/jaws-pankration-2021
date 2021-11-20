@@ -7,5 +7,8 @@ To manage session talk slides at [Jaws Pankration 2021](https://jawspankration20
 
 Reference taken from https://github.com/SathyaBhat/jaws-pankration-2021 and https://github.com/slidevjs/slidev
 
+## link : 
+- Slides : https://jawspankration2021-slides.avinashdalvi.com
+- Demo : https://jawspankration2021-demo.avinashdalvi.com
 
 
