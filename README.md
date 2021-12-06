@@ -10,5 +10,6 @@ Reference taken from https://github.com/SathyaBhat/jaws-pankration-2021 and http
 ## link : 
 - Slides : https://jawspankration2021-slides.avinashdalvi.com
 - Demo : https://jawspankration2021-demo.avinashdalvi.com
+- Session link : https://www.youtube.com/watch?v=TQhvghXJDnY
 
 
